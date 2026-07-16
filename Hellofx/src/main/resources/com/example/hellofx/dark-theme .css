@@ -1,0 +1,16 @@
+.root {
+    -fx-background-color: #121212;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #BB86FC;
+    -fx-text-fill: black;
+}
+
+.list-view {
+    -fx-control-inner-background: #333333;
+    -fx-background-insets: 0;
+    -fx-padding: 5;
+}

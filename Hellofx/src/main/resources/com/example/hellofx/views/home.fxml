@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.hellofx.controllers.HomeController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <Label fx:id="welcomeLabel" layoutX="100" layoutY="100" text="Welcome to my Restaurant App!" />
+    <Button fx:id="menuButton" layoutX="100" layoutY="150" text="Go to Menu" onAction="#goToMenuPage" />
+
+</AnchorPane>

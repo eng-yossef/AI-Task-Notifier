@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript to Servlet Example</title>
+    <style>
+        button{
+        cursor:pointer;
+        }
+    </style>
+    <script>
+        function fetchData() {
+     fetch('data')
+         .then(response => response.json())
+         .then(data => {
+             var x = document.getElementById('response');
+             x.innerHTML = ''; // Clear existing content
+             data.forEach((el) => {
+                 x.innerHTML += el.name + "--->" + el.message + "<br>";
+             });
+         })
+         .catch(error => console.error('Error:', error));
+         }
+    </script>
+</head>
+<body>
+<h1>JavaScript to Servlet Example</h1>
+<button onclick="fetchData()">Fetch Data</button>
+<p id="response"></p>
+</body>
+</html>

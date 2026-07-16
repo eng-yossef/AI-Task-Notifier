@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<input type="button" value="GET Data" id="btn" onclick="getdata()">
+<div class="con">dv</div>
+<script>
+    var btn = document.getElementById('btn');
+    var con = document.getElementsByClassName('con')[0]; // Access the first element in the collection
+    function getdata(){
+        let req = new XMLHttpRequest();
+        req.onload = function() {
+            con.innerHTML = req.responseText;
+        };
+        req.open('get', 'employees', true); // Use lowercase 'get' for the request method
+        req.send();
+    }
+</script>
+</body>
+</html>

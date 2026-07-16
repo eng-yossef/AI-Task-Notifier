@@ -1,0 +1,249 @@
+/* Start Global Style  */
+.primary-color{
+    color: #ff9b50;
+}
+.clear{
+    clear: both;
+}
+
+/* End Global Style  */
+
+/* Start Style Header  */
+
+body{
+    margin: 0;
+    padding: 0;
+        overflow-x: hidden;
+
+
+}
+header{
+    background-color: black;
+    position:  static;
+    display:flex;
+   
+}
+header .left{
+    width: 40%;
+    padding-left:30px
+}
+header .left p{
+    color: white;
+    padding-top: 5px;
+}
+span{
+    font-weight: 100;
+}
+header .right{
+    width: 60%;
+    overflow: hidden;
+    color: white;
+}
+header .right ul{
+display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header .right ul li{
+    color: white;
+    list-style: none;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+header .right ul li a:hover{
+    color: #ff9b50;
+
+}
+/* End Style Header  */
+
+
+/* Start Main Section */
+.main-section{
+    background-image: url("images/bg.jpg");
+
+    background-size: cover;
+    height: 670px;
+    display:flex;
+}
+.main-section .left{
+    padding-top: 100px;
+        width:50%;
+    overflow: hidden;
+    text-align:center;
+}
+.main-section .first{
+    font-weight: bold;
+    font-size: 25px;
+    width: 668px;
+}
+.main-section .hr{
+    height: 3px;
+    width: 100px;
+    background-color: black;
+    margin:auto;
+}
+.main-section .left button{
+    background: transparent;
+    border: .5px solid #fff;
+    border-radius: 8px;
+    width: 113px;
+    height: 34px;
+    font-size: 16px;
+}
+.main-section .left button:hover{
+    border-color:#ff9b50 ;
+    cursor: pointer;
+}
+h1{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    
+}
+.main-section .container .left .first {
+    color:  rgb(149, 153, 152);
+}
+.main-section .container .left  .second {
+    font-size: 15px;
+    font-weight: 400;
+    width: 500px;
+    opacity: .7;
+}
+/* EndMain Section */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in-up-element {
+    opacity: 0; /* Initially hidden */
+    animation: fadeInUp 1s ease forwards; /* Apply the animation */
+    animation-delay: 0.3s; /* Delay the animation */
+  }
+.main-section .right {
+    background: transparent;
+
+    width:50%;
+    height: 70vh;
+     margin-top: 15vh;
+
+
+}
+.main-section .right h2{
+    color: #fff;
+    background: transparent;
+
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: auto;
+}
+.main-section .right form{
+    margin: auto;
+    width: 350px;
+    height: 220px;
+        border: 1px solid tomato;
+
+}
+.main-section .right .input{
+    width: 80%;
+    margin: auto;
+    margin-left: 10%;
+    border: none;
+    border-bottom: 2px solid #c21717;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    background: transparent;
+
+}
+.main-section .right .input:focus {
+    outline: none;
+    border: none; /* This removes the border */
+    color: #fff;
+    font-size:16px /* Your desired font size */;
+
+
+}
+.right .button {
+    padding: 20px;
+    width: 100%;
+    /* height: 40px; */
+    margin-top: 17.7px;
+    border: none;
+    background-color: rgba(255, 155, 80, .4);
+    cursor: pointer;
+}
+.right .button:hover{
+    background-color: rgba(255, 155, 80,.6);
+
+}
+
+.main-section .right .input:active{
+    border: none;
+
+}
+.footer {
+    padding: 10px;
+    clear: both;
+  }
+  
+  .footer-content {
+    background: transparent;
+    margin: 210 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    bottom:0;
+
+  }
+  
+  .footer-text-left {
+    font-size: 25px;
+    padding-left: 40px;
+    float: left;
+    word-spacing: 20px;
+  }
+  
+  a.menu:hover {
+      margin-bottom: 10px;
+    color: #ff9b50;
+
+  }
+  
+  .footer-content-right {
+    display:flex;
+        justify-content: center;
+
+    margin-top: 20px;
+
+  }
+  
+  .icon-style {
+    height: 40px;
+    margin-left: 40px;
+   
+  }
+  
+  .icon-style:hover {
+    margin-bottom: 7px;
+  }
+.icon-style , .menu,.main-section .left button,.right button{
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-property: all;
+}
+/* EndMain Section */z

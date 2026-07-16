@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insert Employee</title>
+</head>
+<style>
+
+    form{
+        padding:10px;
+
+    width:40%;
+            text-align:left;
+         border-radius:20px;
+    border:1px solid black;
+
+   }
+   .l{
+    margin-top:20px;
+   }
+   a{
+       text-decoration: none;
+
+   }
+     button{
+    color:black;
+    border-radius:20px;
+    border:1px solid black;
+    padding:10px;
+    background-color:#FFF;
+    cursor:pointer;
+            text-align:center;
+
+    }
+</style>
+<body>
+<h2>Insert Employee</h2>
+<form action="employees" method="post">
+    <label for="id">Employee ID:</label>
+    <input type="number" id="id" name="id" required><br><br>
+
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required><br><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required><br><br>
+
+    <label for="ssn">SSN:</label>
+    <input type="number" id="ssn" name="ssn" required><br><br>
+
+    <label for="superSsn">Super SSN:</label>
+    <input type="number" id="superSsn" name="superSsn" required><br><br>
+
+    <label for="salary">Salary:</label>
+    <input type="number" id="salary" name="salary" required><br><br>
+
+    <label for="departmentNumber">Department Number:</label>
+    <input type="number" id="departmentNumber" name="departmentNumber" required><br><br>
+
+
+    <label>
+        <input type="radio" name="gender" value="M"> Male
+    </label>
+    <label>
+        <input type="radio" name="gender" value="F"> Female
+    </label>
+    <br>
+    <center>
+
+    <button type="submit">Insert</button>
+    </center>
+
+</form>
+<div class="l">
+    <a href="./employees">View Employees =></a>
+
+</div>
+
+</body>
+</html>

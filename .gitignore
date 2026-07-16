@@ -1,0 +1,29 @@
+# Sensitive files
+auth.txt
+token.txt
+
+# Build artifacts
+target/
+out/
+build/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+*.bak
+hs_err_pid*
