@@ -2,6 +2,12 @@
 
 A full-stack task management application with social features, AI-powered assistance, and real-time notifications. Built with a Java Servlet backend and a JavaFX desktop client.
 
+## Demo
+
+![Task Manager Screenshot](screenshots/task-Manager.png)
+
+**Video Walkthrough:** [Watch on YouTube](https://youtu.be/wm-W8HTUXHA?si=__UYAsBnJY15oZAq)
+
 ---
 
 ## Architecture
